@@ -44,7 +44,7 @@ I really want to focus on using grid. This challenge mke me know that i'm not go
 
 ## Author
 
-- Frontend Mentor - [@symplyteeziy](https://www.frontendmentor.io/profile symplyteeziy)
+- Frontend Mentor - [@symplyteeziy](https://www.frontendmentor.io/profile/symplyteeziy)
 - Twitter - [@iamsymplyteeziy](https://x.com/iamsymplyteeziy?s=11)
 
 
