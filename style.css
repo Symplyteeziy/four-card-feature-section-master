@@ -1,0 +1,84 @@
+
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: hsl(0, 0%, 98%);
+   
+}
+.cont{
+    align-items: center;
+    justify-content: center;
+
+}
+.top-con{
+    font-weight: lighter;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 8px;
+}
+.text{
+    font-size: 15px;
+    line-height: normal;
+    color: hsl(229, 6%, 66%);
+}
+.rel{
+    color: hsl(234, 12%, 34%);
+}
+.side{
+    
+    display: flex;
+    background: white;
+    width: 70%;
+    box-shadow: 1px 3px 20px 0px hsl(229, 6%, 66%);
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-radius: 6px;
+    border-top-color: hsl(180, 62%, 55%);
+}
+img{
+    padding-left: 75%;
+}
+.super{
+    padding: 20px;
+    padding-top: 8px;
+}
+.tem{
+    display: flex;
+    background: white;
+    width: 70%;
+    box-shadow: 1px 3px 20px 0px hsl(229, 6%, 66%);
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-radius: 6px;
+    border-top-color: hsl(0, 78%, 62%);
+}
+.team{
+    padding: 25px;
+    padding-top: 8px;
+}
+.karm{
+    display: flex;
+    background: white;
+    width: 70%;
+    box-shadow: 1px 3px 20px 0px hsl(229, 6%, 66%);
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-radius: 6px;
+    border-top-color: hsl(34, 97%, 64%);
+}
+.karma{
+    padding: 25px;
+    padding-top: 8px;
+}
+.calcu{
+    padding: 25px;
+    padding-top: 8px;
+}
+#boxe{
+    border-top-color: hsl(212, 86%, 64%);
+}
+.body-con{
+    
+}
