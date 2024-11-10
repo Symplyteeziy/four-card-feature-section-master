@@ -1,84 +1,159 @@
-
 body{
+    font-size: 15px;
+    font-family: 'Poppins-Regular', sans-serif;
+    background: hsl(0, 0%, 98%);
     align-items: center;
     justify-content: center;
     display: flex;
-    background: hsl(0, 0%, 98%);
-   
+    flex-direction: column;
 }
-.cont{
-    align-items: center;
-    justify-content: center;
 
+.body-con{
+    padding-top: 30px;
+    padding-bottom: 8x;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
 }
-.top-con{
-    font-weight: lighter;
-    padding: 20px;
+header{
     text-align: center;
-    font-size: 30px;
-    line-height: 8px;
+    padding-top: 12px;
+    line-height: 10px;
 }
-.text{
-    font-size: 15px;
-    line-height: normal;
+.top-head{
+    padding: 0%;
+    color: rgb(14, 13, 13);
+    font-weight: lighter;
+    font-size: 26px;
+}
+h3{
+    font-size: 24px;
+}
+.top-text{
+    padding: 0%;
+    line-height: 18px;
+    font-size: 14px;
+}
+p{
     color: hsl(229, 6%, 66%);
 }
-.rel{
-    color: hsl(234, 12%, 34%);
-}
-.side{
-    
-    display: flex;
+.left-doc{
     background: white;
-    width: 70%;
+    width: 150%;
     box-shadow: 1px 3px 20px 0px hsl(229, 6%, 66%);
     border-top-style: solid;
     border-top-width: 4px;
     border-radius: 6px;
     border-top-color: hsl(180, 62%, 55%);
+    line-height: 10px;
 }
-img{
-    padding-left: 75%;
+.left-con{
+    padding-left: 12%;
+    padding-right: 110px;
 }
-.super{
-    padding: 20px;
-    padding-top: 8px;
+.left-text{
+    padding-bottom: 30px;
 }
-.tem{
-    display: flex;
+.mid1-doc{
     background: white;
-    width: 70%;
+    width: 92%;
     box-shadow: 1px 3px 20px 0px hsl(229, 6%, 66%);
     border-top-style: solid;
     border-top-width: 4px;
     border-radius: 6px;
     border-top-color: hsl(0, 78%, 62%);
+    line-height: 10px;
 }
-.team{
-    padding: 25px;
-    padding-top: 8px;
+.mid1-con{
+    padding-left: 16px;
+    padding-bottom: 25px;
 }
-.karm{
-    display: flex;
+.mid2-doc {
     background: white;
-    width: 70%;
+    width: 92%;
     box-shadow: 1px 3px 20px 0px hsl(229, 6%, 66%);
     border-top-style: solid;
     border-top-width: 4px;
     border-radius: 6px;
     border-top-color: hsl(34, 97%, 64%);
+    line-height: 10px;
 }
-.karma{
-    padding: 25px;
-    padding-top: 8px;
+.mid2-con{
+    padding-left: 15px; 
 }
-.calcu{
-    padding: 25px;
-    padding-top: 8px;
-}
-#boxe{
+.right-doc{
+    background: white;
+    width: 130%;
+    box-shadow: 1px 3px 20px 0px hsl(229, 6%, 66%);
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-radius: 6px;
     border-top-color: hsl(212, 86%, 64%);
+    line-height: 10px;
 }
-.body-con{
+.right-con{
+    padding-right: 200px;
+    padding-left: .1px;
+}
+h2{
+    padding-top: 20px;
+    padding-left: 24px;
+}
+p{
+    padding-left: 24px;
+    padding-bottom: 10px;
+    line-height: 18px;
+    font-size: 11px;
+}
+.mid-text{
+    padding-left: 30px;
+    padding-right: 50px;
+}
+.right-text{
+    padding-right: 50px;
+}
+img{
+    padding-left: 74%;
+    padding-right: 100%;
+    padding-bottom: 25px;
+    width: 50px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .body-con{
+    padding-top: 30px;
+    padding-bottom: 8x;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    .left-con {
+        padding-left: auto;
+    }
+    .left-doc{
+        width: 126%;
+    }
+    .mid1-doc{
+        width: 81%;
+    }
+    .mid1-con{
+        padding-top: 25px;
+        padding-left: 82px;
+    }
+    .mid2-doc{
+        width: 81%;
+    }
+    .mid2-con{
+        padding-left: 82px;
+        padding-bottom: 25px;
+    }
+    .right-con{
+        padding-left: 82px;
+    }
+    .right-doc{
+        width: 168%;
+    }
     
 }
