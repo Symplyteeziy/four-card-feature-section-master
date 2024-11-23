@@ -120,7 +120,7 @@ img{
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
     .body-con{
     padding-top: 30px;
     padding-bottom: 8x;
@@ -129,11 +129,17 @@ img{
     flex-direction: column;
     justify-content: center;
 }
+
     .left-con {
         padding-left: auto;
     }
     .left-doc{
         width: 126%;
+    }
+    .top-text {
+        padding: 0%;
+        line-height: 18px;
+        font-size: 12px;
     }
     .mid1-doc{
         width: 81%;
